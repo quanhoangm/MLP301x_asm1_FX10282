@@ -1,11 +1,11 @@
 # Chương trình tính toán và phân tích điểm thi
 Chương trình được dùng để tính toán điểm kiểm thi của sinh viên dựa trên kết quả bài làm và file đáp án cho trước. Kết quả sẽ được hiển thị trên màn hình console và kết quả điểm thi của từng lớp sẽ được lưu vào trong thư mục `./result` ví dụ `./result/class1_grades.txt` cho kết quả của class 1.
-## Cài đặt
+## 1. Cài đặt
 Chương trình có sử dụng các thư viện [**numpy**](https://numpy.org/install/) và [**pandas**](https://pandas.pydata.org/docs/getting_started/install.html) cần cài đặt trước khi sử dụng. Nhấn vào link để cài đặt nếu chưa có.
 ```
 git clone https://github.com/quanhoangm/MLP301x_asm1_FX10282.git
 ```
-## Sử dụng
+## 2. Sử dụng
 Lưu file bài làm của sinh viên cần chấm vào thư mục `./Data Files` ví dụ `./Data Files/class1.txt` Sử dụng terminal cd đến thư mục vừa clone xuống từ _github_ và chạy file _quan_hoangminh_grade_the_exams.py_
 ```
 cd D:\MLP301x_asm1_FX10282
@@ -42,13 +42,14 @@ Lowest score:  59
 Range of score:  32
 Median score:  73.0
 ```
-## Các lỗi thường gặp:
+## 3. Các lỗi thường gặp:
 1. Nhập không đúng tên file :
 ``` 
 Enter a class to grade (i.e. class1 for class1.txt): class
 File cannot be found. Please try again!
 ```
 Vui lòng nhập đúng tên file, không kèm phần mở rộng
+
 2. Toàn bộ dữ liệu bị lỗi
 
 Thông tin bài làm của sinh viên trong file text phải tuân thủ yêu cầu sau:
